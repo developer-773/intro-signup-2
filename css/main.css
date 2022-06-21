@@ -159,7 +159,7 @@ input:not(:placeholder-shown):not(:focus):invalid{
     border: 1px solid red;
 }
 
-input:not(:placeholder-shown):not(:focus):invalid ~ .invalid-txt{
+input:not(:placeholder-shown):not(:focus):invalid + .invalid-txt{
     margin-left: auto;
     margin-bottom: 19px;
     color: red;
